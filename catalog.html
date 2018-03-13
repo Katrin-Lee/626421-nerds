@@ -7,9 +7,10 @@
   <body>
   	<header class="main-header">
  			<!-- Главная навигация сайта -->
+ 			<h1 class="page-title">Магазин готовых шаблонов</h1>
  			<nav class="main-navigation">
  				<a class="main-header-logo" href="index.html">	
- 					<img src="http://placehold.it/150x100" alt"Логотип нёрдс">
+ 					<= src="http://placehold.it/150x100" alt="Логотип нёрдс">
  				</a>	
  				<ul class="site-navigation">
  					<li><a href="studio.html">Студия</a></li>
@@ -17,77 +18,75 @@
  					<li><a href="shop.html">Магазин</a></li>
  					<li><a href="contacts.html">Контакты</a></li>
  				</ul>
- 				<ul class="basket">
- 					<li><a href="basket.html">Корзина</a></li>
+ 				<ul>
+ 					<li class="basket"><a href="basket.html">Корзина</a></li>
  				</ul>	
  			</nav>
  		</header>
 
  		<main class="container">
- 			<h1 class="page-title">Магазин готовых шаблонов</h1>
-
  			<section class="filters">
  				<h2 class="visually-hidden">Фильтр товаров</h2>
  				<!-- Здесь будет форма -->
  			</section>
 
- 			<section>
- 				<b>СОРТИРОВАТЬ:</b>
- 				<ul class="sort">
- 					<li><a class="button-sort" href="#">ПО ЦЕНЕ</a></li>
- 					<li><a class="button-sort" href="#">ПО ТИПУ</a></li>
- 					<li><a class="button-sort" href="#">ПО НАЗВАНИЮ</a></li>
- 					<li><a class="button-sort" href="#">ПО УБЫВАНИЮ</a></li>
- 					<li><a class="button-sort" href="#">ПО ВОЗРАСТАНИЮ</a></li>
- 				</ul>	
- 			</section>	
-
  			<section class="catalog">
  				<h2 class="visually-hidden">Список шаблонов</h2>
+
+ 			<div>
+ 				<h3>Сортировать:</h3>
+ 				<ul class="sort">
+ 					<li><a class="button-sort" href="#">По цене</a></li>
+ 					<li><a class="button-sort" href="#">По типу</a></li>
+ 					<li><a class="button-sort" href="#">По названию</a></li>
+ 					<li><a class="button-sort" href="#">По убыванию</a></li>
+ 					<li><a class="button-sort" href="#">По возрастанию</a></li>
+ 				</ul>	
+ 			</div>
  					<ul class="catalog-list">
  						<li class="catalog-item">
- 							<img src="http://placehold.it/150x100" alt"Sedona">
- 							<div>
+ 							<img src="http://placehold.it/150x100" alt="Sedona">
+ 							<div class="catalog-item-info">
  								<a class="button-name" href="#">SEDONA</a>
  								<p>Информационный сайт для туристов</p>
  								<a class="button-buy" href="#">9 900 РУБ.</a>
  							</div>	
  						</li>
  						<li class="catalog-item">
- 							<img src="http://placehold.it/150x100" alt"Pink_APP">
- 							<div>
+ 							<img src="http://placehold.it/150x100" alt="Pink_APP">
+ 							<div class="catalog-item-info">
  								<a class="button-name" href="#">PINK APP</a>
  								<p>Продуктивный лендинг приложения для iOS и Android</p>
  								<a class="button-buy" href="#">9 900 РУБ.</a>
  							</div>	
  						</li>
  						<li class="catalog-item">
- 							<img src="http://placehold.it/150x100" alt"Barbershop">
- 							<div>
+ 							<img src="http://placehold.it/150x100" alt="Barbershop">
+ 							<div class="catalog-item-info">
  								<a class="button-name" href="#">BARBERSHOP</a>
  								<p>Сайт салоны красоты. Для мужчин, да.</p>
  								<a class="button-buy" href="#">9 900 РУБ.</a>
  							</div>	
  						</li>
  						<li class="catalog-item">
- 							<img src="http://placehold.it/150x100" alt"Mishka">
- 							<div>
+ 							<img src="http://placehold.it/150x100" alt="Mishka">
+ 							<div class="catalog-item-info">
  								<a class="button-name" href="#">MISHKA</a>
  								<p>Интернет-магазин вязаных игрушек</p>
  								<a class="button-buy" href="#">9 900 РУБ.</a>
  							</div>	
  						</li>
  						<li class="catalog-item">
- 							<img src="http://placehold.it/150x100" alt"A_PLUS">
- 							<div>
+ 							<img src="http://placehold.it/150x100" alt="A_PLUS">
+ 							<div class="catalog-item-info">
  								<a class="button-name" href="#">A PLUS</a>
  								<p>Лендинг курсов повышения квалификации</p>
  								<a class="button-buy" href="#">9 900 РУБ.</a>
  							</div>	
  						</li>
  						<li class="catalog-item">
- 							<img src="http://placehold.it/150x100" alt"Кваст">
- 							<div>
+ 							<img src="http://placehold.it/150x100" alt="Кваст">
+ 							<div class="catalog-item-info">
  								<a class="button-name" href="#">КВАСТ</a>
  								<p>Промо-сайт производителя крафтового кваса</p>
  								<a class="button-buy" href="#">9 900 РУБ.</a>
@@ -135,8 +134,8 @@
  			<!-- Поле для заполнения -->
  			<p>Текст письма</p>
  			<!-- Поле для заполнения -->
- 			<a class="button" href="#">ОТПРАВИТЬ</a>
- 			<span class="modal-close">X</span>
+ 			<a class="button" href="#">Отправить</a>
+ 			<span class="modal-close">Закрыть окно</span>
  		</section>	
 
   </body>
